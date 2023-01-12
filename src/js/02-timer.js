@@ -46,6 +46,7 @@ function onStartBtnClick() {
     daysEl.textContent = addLeadingZero(days);
     hoursEl.textContent = addLeadingZero(hours);
     minutesEl.textContent = addLeadingZero(minutes);
+
     secondsEl.textContent = addLeadingZero(seconds);
   }, 1000);
 }
