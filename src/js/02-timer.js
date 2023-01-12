@@ -22,7 +22,9 @@ const options = {
       alert('Please choose a date in the future');
     }
     Notiflix.Notify.info("Well done,  let's go!!!");
+
     startBtn.disabled = false;
+
     chooseDate = selectedDates[0].getTime();
     console.log(chooseDate);
   },
